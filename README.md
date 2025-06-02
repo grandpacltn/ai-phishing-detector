@@ -1,3 +1,14 @@
+
+
+<img width="1440" alt="Screenshot 2025-06-02 at 8 56 45 AM" src="https://github.com/user-attachments/assets/323ee17f-322a-4ee9-ada9-f808c2d3db8c" />
+<img width="1440" alt="Screenshot 2025-06-02 at 8 57 26 AM" src="https://github.com/user-attachments/assets/cd9c8510-b624-4074-9d65-aa08c3ad0a44" />
+
+<img width="1440" alt="Screenshot 2025-06-02 at 8 58 49 AM" src="https://github.com/user-attachments/assets/c4fe416b-1f3b-4b3d-95e1-4d98322771a3" />
+
+
+<img width="1440" alt="Screenshot 2025-06-02 at 8 56 18 AM" src="https://github.com/user-attachments/assets/dd48a615-8cd8-48a7-bade-9dafaf298bde" />
+
+
 🧠 AI Phishing Detector
 
 An intelligent web-based application that detects phishing emails using Natural Language Processing (NLP), machine learning, and real-time SPF, DKIM, DMARC header validation. Supports email scanning from Gmail and Hotmail/Outlook using their respective APIs.
