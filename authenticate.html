@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Microsoft Sign-In | AI Phishing Detector</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 400px;
+    }
+    h2 {
+      color: #1976d2;
+    }
+    .code-box {
+      font-size: 22px;
+      background: #f1f1f1;
+      padding: 10px 20px;
+      margin: 15px 0;
+      display: inline-block;
+      border-radius: 10px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    a {
+      color: #1976d2;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .button {
+      margin-top: 25px;
+      padding: 12px 20px;
+      background: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover {
+      background: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>🔐 Authenticate with Microsoft</h2>
+    <p>To scan your inbox securely, follow these quick steps:</p>
+    <ol style="text-align: left;">
+      <li>Click to open: <a href="{{ verify_url }}" target="_blank">{{ verify_url }}</a></li>
+      <li>Enter this code:</li>
+    </ol>
+    <div class="code-box">{{ user_code }}</div>
+    <p>✅ After signing in, return here and click the button below:</p>
+    <a href="/scan_hotmail_fetch" class="button">📬 Click to Fetch Emails</a>
+  </div>
+</body>
+</html>
